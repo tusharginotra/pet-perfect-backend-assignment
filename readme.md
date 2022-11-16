@@ -31,7 +31,19 @@
 **Output** : ![](images/output-4.png)
 
 ### 5. LIKE A BOOK : MAKE PUT REQUEST BY PASSING BEARER TOKEN THAT YOU GOT WHILE LOGGING IN
+To login use one of the following email and password : 
+      
+      {
+        "email": "test@test.com",
+        "password": "password" 
+      },
+      {
+        "email": "user2@example.com",
+        "password": "password"
+      }
+      
 
+You will get a token, copy the token and pass the token as bearer in POSTMAN
 **URL** : localhost:8082/books/like/b9a7c1c3cfbbdc28a21c28ee
 
 **Output** : ![](images/output-5.png)
@@ -44,7 +56,8 @@
 
 
 
-
+## POSTMAN JSON LINK 
+https://www.getpostman.com/collections/65c7747d984a8ec0fb40
 
 
 
