@@ -1,0 +1,26 @@
+{
+    "users": [
+      {
+        "id":"2f24vvg",
+        "email": "test@test.com",
+        "password": "password" 
+      },
+      {
+        "id":"d1u9nq",
+        "email": "user2@example.com",
+        "password": "password"
+      }
+    ],
+    "Books": [
+      {
+        "likedBy" : "2f24vvg",
+        "likedBooks" : [],
+        "unlikedBooks" : []
+      },
+      {
+        "likedBy" : "d1u9nq",
+        "likedBooks" : [],
+        "unlikedBooks" : []
+      }
+    ]
+  }
